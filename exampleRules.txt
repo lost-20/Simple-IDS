@@ -1,0 +1,5 @@
+alert UDP any any -> any any (msg:"UDP packet")
+alert UDP any any -> 8.8.8.4 53 (msg:"DNS to google")
+block TCP 192.168.31.200 any -> any any (msg:"Opera")
+alert TCP any any -> any any (msg:"Flag R";flags:R)
+alert TCP 192.168.0.1 any -> 192.168.0.0 any (msg:"Gateway to subnet"; len: 45)

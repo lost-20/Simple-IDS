@@ -1,0 +1,3 @@
+alert UDP any any -> 8.8.8.8 53 (msg:"DNS to google")
+alert UDP any any -> 8.8.8.4 53 (msg:"DNS to google")
+block TCP any any -> any any (msg:"Opera")

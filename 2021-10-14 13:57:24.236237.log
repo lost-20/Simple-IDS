@@ -1,0 +1,249 @@
+WARNING:scapy.runtime:Cannot set filter: libpcap is not available. Cannot compile filter !
+WARNING:root:
+2021-10-14 13:57:25.672734
+ALERT "NTP
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"NTP")
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 40
+	 Identification: 0
+	 Flags: DF
+	 Fragment Offset: 0
+	 Time to Live: 64
+	 Protocol: 6
+	 Checksum: 2505
+	 Source Address: 172.20.10.2
+	 Destination Address: 51.105.71.136
+[Заголовок TCP]
+	 Source Port: 49353
+	 Destination Port: 443
+	 Sequence Number: 2514601072
+	 Acknowledgment Number: 1931985759
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: RA
+	 Window: 4096
+	 Checksum: 7019
+
+
+WARNING:root:
+2021-10-14 13:57:25.674963
+ALERT "Test"
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"Test";flags:R)
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 40
+	 Identification: 0
+	 Flags: DF
+	 Fragment Offset: 0
+	 Time to Live: 64
+	 Protocol: 6
+	 Checksum: 2505
+	 Source Address: 172.20.10.2
+	 Destination Address: 51.105.71.136
+[Заголовок TCP]
+	 Source Port: 49353
+	 Destination Port: 443
+	 Sequence Number: 2514601072
+	 Acknowledgment Number: 1931985759
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: RA
+	 Window: 4096
+	 Checksum: 7019
+
+
+WARNING:root:
+2021-10-14 13:58:10.636211
+ALERT "NTP
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"NTP")
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 40
+	 Identification: 18312
+	 Flags: 
+	 Fragment Offset: 0
+	 Time to Live: 237
+	 Protocol: 6
+	 Checksum: 48911
+	 Source Address: 17.33.0.1
+	 Destination Address: 172.20.10.2
+[Заголовок TCP]
+	 Source Port: 443
+	 Destination Port: 49573
+	 Sequence Number: 3801797421
+	 Acknowledgment Number: 244796615
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: RA
+	 Window: 9300
+	 Checksum: 61372
+
+
+WARNING:root:
+2021-10-14 13:58:10.640697
+ALERT "Test"
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"Test";flags:R)
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 40
+	 Identification: 18312
+	 Flags: 
+	 Fragment Offset: 0
+	 Time to Live: 237
+	 Protocol: 6
+	 Checksum: 48911
+	 Source Address: 17.33.0.1
+	 Destination Address: 172.20.10.2
+[Заголовок TCP]
+	 Source Port: 443
+	 Destination Port: 49573
+	 Sequence Number: 3801797421
+	 Acknowledgment Number: 244796615
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: RA
+	 Window: 9300
+	 Checksum: 61372
+
+
+WARNING:root:
+2021-10-14 13:58:58.052357
+ALERT "NTP
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"NTP")
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 40
+	 Identification: 60054
+	 Flags: 
+	 Fragment Offset: 0
+	 Time to Live: 64
+	 Protocol: 6
+	 Checksum: 9230
+	 Source Address: 172.20.10.1
+	 Destination Address: 172.20.10.2
+[Заголовок TCP]
+	 Source Port: 51588
+	 Destination Port: 49153
+	 Sequence Number: 1619545293
+	 Acknowledgment Number: 1097798037
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window: 2048
+	 Checksum: 45512
+
+
+WARNING:root:
+2021-10-14 13:58:58.058261
+ALERT "Test"
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"Test";flags:R)
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 40
+	 Identification: 60054
+	 Flags: 
+	 Fragment Offset: 0
+	 Time to Live: 64
+	 Protocol: 6
+	 Checksum: 9230
+	 Source Address: 172.20.10.1
+	 Destination Address: 172.20.10.2
+[Заголовок TCP]
+	 Source Port: 51588
+	 Destination Port: 49153
+	 Sequence Number: 1619545293
+	 Acknowledgment Number: 1097798037
+	 Data Offset: 5
+	 Reserved: 0
+	 Flags: A
+	 Window: 2048
+	 Checksum: 45512
+
+
+WARNING:root:
+2021-10-14 13:58:58.063780
+ALERT "NTP
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"NTP")
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 52
+	 Identification: 0
+	 Flags: DF
+	 Fragment Offset: 0
+	 Time to Live: 64
+	 Protocol: 6
+	 Checksum: 52888
+	 Source Address: 172.20.10.2
+	 Destination Address: 172.20.10.1
+[Заголовок TCP]
+	 Source Port: 49153
+	 Destination Port: 51588
+	 Sequence Number: 1097798037
+	 Acknowledgment Number: 1619545294
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: A
+	 Window: 2048
+	 Checksum: 6039
+
+
+WARNING:root:
+2021-10-14 13:58:58.067995
+ALERT "Test"
+Совпала сигнатура :
+alert TCP any any -> any any (msg:"Test";flags:R)
+В пакете :
+[Заголовок IP-пакета]
+	 Version: 4
+	 Header Length: 20 bytes
+	 Service Type: 0
+	 Total Length: 52
+	 Identification: 0
+	 Flags: DF
+	 Fragment Offset: 0
+	 Time to Live: 64
+	 Protocol: 6
+	 Checksum: 52888
+	 Source Address: 172.20.10.2
+	 Destination Address: 172.20.10.1
+[Заголовок TCP]
+	 Source Port: 49153
+	 Destination Port: 51588
+	 Sequence Number: 1097798037
+	 Acknowledgment Number: 1619545294
+	 Data Offset: 8
+	 Reserved: 0
+	 Flags: A
+	 Window: 2048
+	 Checksum: 6039
+
+
